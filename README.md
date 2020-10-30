@@ -268,10 +268,10 @@ Using `basic-css.html`, you should be able to demonstrate the following by using
 	  </div>
   </div>
   ```  
-  - [ ] ✏️ To the regular width section, add HTML and [Bootstrap's built-in CSS classes](https://getbootstrap.com/docs/4.5/layout/grid/) to display a one column layout (mobile) and a three column layout (in large displays and above).
-  - [ ] ✏️ In the first column in the above section, add a link to each of the above html files.
-  - [ ] ✏️ In the second column in the above section, add a selection of [form elements](https://getbootstrap.com/docs/4.5/components/forms/) that use Bootstrap classes.  
-  - [ ] ✏️ In the third column in the above section, copy your favorite quote from any of the readings thus far in this class.
+  - [x] ✏️ To the regular width section, add HTML and [Bootstrap's built-in CSS classes](https://getbootstrap.com/docs/4.5/layout/grid/) to display a one column layout (mobile) and a three column layout (in large displays and above).
+  - [x] ✏️ In the first column in the above section, add a link to each of the above html files.
+  - [x] ✏️ In the second column in the above section, add a selection of [form elements](https://getbootstrap.com/docs/4.5/components/forms/) that use Bootstrap classes.  
+  - [x] ✏️ In the third column in the above section, copy your favorite quote from any of the readings thus far in this class.
 
 
 
@@ -283,10 +283,10 @@ You should be able to...
 
 ### Publish HTML/CSS to the web
 
-- [ ] Use [Github Pages](https://docs.github.com/en/github/working-with-github-pages) to publish this project to the web
-- [ ] Validate your [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/)
-- [ ] ✏️ Replace this: **[https://github.com/*username*/learn-html-css-milestones](https://github.com/JoReed/learn-html-css-milestones)** with your Github.com/repository url.
-- [ ] ✏️ Replace this: **[https://*username*.github.io/learn-html-css-milestones](https://JoReed.github.io/learn-html-css-milestones)** with your repo's Github Page url.
+- [x] Use [Github Pages](https://docs.github.com/en/github/working-with-github-pages) to publish this project to the web
+- [x] Validate your [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/)
+- [x] ✏️ Replace this: **[https://github.com/*username*/learn-html-css-milestones](https://github.com/JoReed/learn-html-css-milestones)** with your Github.com/repository url.
+- [x] ✏️ Replace this: **[https://*username*.github.io/learn-html-css-milestones](https://JoReed.github.io/learn-html-css-milestones)** with your repo's Github Page url.
 
 
 
