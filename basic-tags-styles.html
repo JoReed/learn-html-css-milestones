@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Basic tags style</title>
+    <style media="screen">
+      .blue {
+        color: blue;
+      }
+      #unique {
+        color: red;
+      }
+      div.first > h2 {
+        color: yellow;
+      }
+      .border {
+        border: solid;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Basic Tags</h1>
+    <section id="one" class="first">
+    <h2 class="blue" id="unique">block-level text containers</h2>
+    <p>In this section we will be demonstarting the use of a paragraph
+      tag(as seen here), a blockqoute tag, and a pre-formatted text tag</p>
+
+      <blockquote cite="https://www.w3schools.com/tags/tag_blockquote.asp" class="blue">
+      With a blockqoute tag you can have in text qoutes and a citation tide to it.
+      </blockquote>
+      <pre>
+        With a pre tag what ever is written inbetween the tags is displayed exactly how
+        it is typed. For example      white space   matters as well
+        as
+        line breaks
+
+
+          seen here  .
+      </pre>
+    </section>
+    <section id="two" class="border">
+      <h2>Inline text styling</h2>
+      There are ways you can change the look of text inline like <em>ephasizing text</em>,
+      <i>italicize text</i>, <strong>bold text</strong> in two ways <b>ways</b>.
+      You can also have code in your text which will be in the default monospaced text
+      <code>This is code</code>
+    </section>
+    <section id="three" class="border">
+      <h2 class="blue">The link, image, and header tags</h2>
+      <a href="https://www.w3schools.com/tags/tag_a.asp">
+        The a tag is for linking to either internal or external websites
+      </a><br>
+      The image tag is used to import an image into the site, like how I can import
+      an image of a dog right below.<br>
+      <img src="./assets/img/dog.jpg" alt=""><br>
+      <h1>With the different hesdding tags</h1>
+      <h2>That range from 1-6</h2>
+      <h3>As the number becomes bigger</h3>
+      <h4>The text becomes smaller</h4>
+      <h5>Giving the illsuion of importance</h5>
+      <h6>Which is demonstrated here</h6>
+    </section>
+    <section id="four">
+      <h2>List</h2>
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ul>
+
+      <ul>
+        <li>Four</li>
+        <li>Five</li>
+        <li>Six</li>
+      </ul>
+
+      <ol>
+        <li><p>Hello my name is Jordan</p></li>
+        <li>
+          <a href="https://github.com/JoReed/learn-git-milestones" target="_blank">
+            Here's the link to my GitHub
+          </a>
+        </li>
+        <li><img src="./assets/img/dog.jpg" alt="Doggy"></li>
+      </ol>
+
+      <ol>
+        <li>Human</li>
+        <li>Love</li>
+        <li>Alien</li>
+      </ol>
+
+      <ol>
+        <li>Human
+          <ul>
+            <li>Man</li>
+            <li>Woman</li>
+          </ul>
+        </li>
+        <li>Cat
+          <ul>
+            <li>Tabby</li>
+            <li>Persian</li>
+          </ul>
+        </li>
+        <li>Dog
+          <ul>
+            <li>German Shepard</li>
+            <li>GOlden Retriever</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    <section id="five" class="border">
+      <h2>Tables</h2>
+      <table>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+          <th>Spending</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$650</td>
+          <td>$200</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$500</td>
+          <td>$100</td>
+        </tr>
+      </table>
+      <br>
+
+      <table>
+        <tr>
+          <th>Topoic</th>
+          <th>Sudy time</th>
+        </tr>
+        <tr>
+          <td>History</td>
+          <td>2 hours</td>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td>4 hours</td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th></th>
+          <th>Hours</th>
+          <th>Rate</th>
+          <th>Tax rate</th>
+        </tr>
+        <tr>
+          <th>Jordan</th>
+          <th>10 hours</th>
+          <th>$9</th>
+          <th>7%</th>
+        </tr>
+        <tr>
+          <th>John</th>
+          <th>19 hours</th>
+          <th>$10</th>
+          <th>10%</th>
+        </tr>
+        <tr>
+          <th>Sarah</th>
+          <th>6 hours</th>
+          <th>$15</th>
+          <th>12%</th>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
